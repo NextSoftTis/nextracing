@@ -1,0 +1,37 @@
+plugins {
+    id "com.moowork.gulp" version "0.13"
+    id "com.moowork.node" version "0.13"
+}
+
+node {
+    // Version del Node que usamos.
+    version = '4.4.7'
+
+    // Configurar el directorio de trabajo para despaquetar node
+    //workDir = file("${project.buildDir}/nodejs")
+    // Configurar el directorio de trabajo donde node_modules deberia estar localizado.
+    nodeModulesDir = file("${project.projectDir}")
+
+    // Habilitado la descarga automatica. Falso es por defecto (por ahora).
+    download = true
+}
+
+gulp {
+    // Configura el directorio donde gulpfile.js deberia estar encontrado
+    workDir = file("${project.projectDir}")
+
+    // Los colores deberia salir en la terminal
+    colors = true
+
+    // Salda de Gulp deberia ser buffered - uso completo cuando corres tareas en paralelo
+    bufferOutput = false
+}
+
+// Lo hace seguro sobre cada build que gulp esta instalado
+gulp_build.dependsOn 'installGulp'
+
+// Procesos de tu package.json antes que corra gulp build
+gulp_build.dependsOn 'npmInstall'
+
+// Corre "gulp build" como para de tu gradle build
+//build.dependsOn gulp_build

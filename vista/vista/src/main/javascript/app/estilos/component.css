@@ -1,0 +1,54 @@
+.nt-titulo {
+  font-family: Raleway;
+  color: white;
+}
+.nt-box {
+  background-color: black;
+  border-radius: 12px;
+  border: 1px solid white;
+  opacity: 0.6;
+  overflow: hidden;
+  padding: 15px;
+}
+button.nt-button {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  cursor: pointer;
+  font-family: Raleway;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 8px 30px;
+}
+button.nt-button:focus {
+  outline: none;
+}
+button.nt-button:hover {
+  color: white;
+  border: 1px solid white;
+}
+input.nt-input {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+input.nt-input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Raleway;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.3rem;
+}
+input.nt-input:focus {
+  border: 1px solid white;
+  color: white;
+  outline: none;
+}
+input.nt-input:hover {
+  border: 1px solid white;
+}

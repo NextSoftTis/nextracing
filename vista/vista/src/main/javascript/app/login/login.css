@@ -1,0 +1,24 @@
+.nt-titulo {
+  font-family: Raleway;
+  color: white;
+}
+div.login {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 200px);
+}
+div.login .imagen-superior {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+div.login .formulario {
+  display: block;
+  width: 100%;
+}
+div.login .formulario .nt-box {
+  width: 370px;
+  margin: 0 auto;
+}

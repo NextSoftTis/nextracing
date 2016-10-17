@@ -1,0 +1,15 @@
+<div class="login">
+    <div class="imagen-superior">
+        <img ng-src="recursos/imagenes/logo.png" />
+    </div>
+    <div class="formulario">
+        <div class="nt-box" name="formulario" novalidate>
+            <input class="nt-input" name="usuario" type="text" placeholder="Nombre" ng-model="usuario" required/>
+            <button  id="submit" class="nt-button" ng-disabled="formulario.usuario.$invalid" ng-click="$ctrl.iniciarSesion(usuario)" type="submit">Login</button>
+            <div class="nt-titulo">
+                <h1>Bienvenido</h1>
+                <h2>{{usuario}}</h2>
+            </div>
+        </div>
+    </div>
+</div>
