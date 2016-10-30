@@ -80,4 +80,5 @@ gulp.task('browser-sync', function() {
 gulp.task('watch', ['buildIndex', 'browser-sync'], function() {
     gulp.watch("./src/main/javascript/app/**/*.html").on('change', bs.reload);
     gulp.watch("./src/main/javascript/app/**/*.js").on('change', bs.reload);
+    gulp.watch("./src/main/javascript/app/**/*.css").on('change', bs.reload);
 });
