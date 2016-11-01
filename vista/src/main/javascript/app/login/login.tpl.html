@@ -1,15 +1,27 @@
-<div class="login">
+
     <div class="imagen-superior">
-        <img ng-src="recursos/imagenes/logo.png" />
+        <img class="img-responsive circle" src="recursos/imagenes/logoNextracing1.png" />
     </div>
-    <div class="formulario">
-        <div class="nt-box" name="formulario" novalidate>
-            <input class="nt-input" name="usuario" type="text" placeholder="Nombre" ng-model="usuario" required/>
-            <button  id="submit" class="nt-button" ng-disabled="formulario.usuario.$invalid" ng-click="$ctrl.iniciarSesion(usuario)" type="submit">Login</button>
-            <div class="nt-titulo">
-                <h1>Bienvenido</h1>
-                <h2>{{usuario}}</h2>
-            </div>
-        </div>
+    <!--
+    -->
+    
+    <div class="jumbotron nt-formulario">
+        <form>
+                    
+                <div class="nt-titulo">
+                    <h3>Bienvenido</h3>
+                </div>
+
+                <input name="usuario" type="text" placeholder="Nombre" class="form-control">
+                <input name="contraseña" type="password" placeholder="Contraseña" class="form-control">
+                <input type="submit" id="submit" class="btn btn1"  value="Ingresar" ng-disabled="formulario.usuario.$invalid" ng-click="$ctrl.iniciarSesion(usuario)">
+        </form>
     </div>
-</div>
+    <!--
+    -->
+    <div class="nt-pie-de-pagina">
+        <h2 class="nt-h2">
+        Sistema de seguimiento y nombramiento de Docentes
+        </h2>
+    </div>
+

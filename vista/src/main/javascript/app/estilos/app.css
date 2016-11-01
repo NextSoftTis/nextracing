@@ -1,3 +1,6 @@
+
+/*
+
 html,
 body {
   height: 100%;
@@ -5,17 +8,8 @@ body {
   padding: 0;
   width: 100%;
 }
+*/
+
 body.nt-background {
-  height: 100%;
-  width: 100%;
-  background: url('/recursos/imagenes/background.jpg') no-repeat;
-  background-size: cover;
-}
-body.nt-logo {
-  background: url('/recursos/imagenes/logo.png') no-repeat;
-  background-size: cover;
-  width: 11%;
-  height: 8%;
-  left: 2%;
-  top: 2%;
+  background-color: #ECEFF1;
 }
