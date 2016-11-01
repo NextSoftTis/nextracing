@@ -1,3 +1,4 @@
+/*
 .nt-titulo {
   font-family: Raleway;
   color: white;
@@ -5,9 +6,7 @@
 .nt-box {
   background-color: black;
   border-radius: 12px;
-  border: 1px solid white;
   opacity: 0.6;
-  overflow: hidden;
   padding: 15px;
 }
 button.nt-button {
@@ -25,8 +24,7 @@ button.nt-button:focus {
   outline: none;
 }
 button.nt-button:hover {
-  color: white;
-  border: 1px solid white;
+  color: black;
 }
 input.nt-input {
   background: transparent;
@@ -45,10 +43,10 @@ input.nt-input::-webkit-input-placeholder {
   line-height: 1.3rem;
 }
 input.nt-input:focus {
-  border: 1px solid white;
+  border: 5px solid white;
   color: white;
   outline: none;
 }
 input.nt-input:hover {
-  border: 1px solid white;
+  border: 2px solid white;
 }

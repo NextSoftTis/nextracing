@@ -1,4 +1,99 @@
-.nt-menu {
-  font-family: Raleway;
-  color: white;
+
+div.nt-menu-titulo {
+  text-align: center;
+  background-color: #E0E0E0;
+  width: 99.99%;
+  height: 18%;
+  left: 0%;
+  top: 0%;
+  position: absolute;
 }
+div.nt-menu-titulo > h1{
+  margin:auto;
+}
+
+div.nt-menu-titulo h1.nt-titulo {
+  margin-top: 45px;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: #455A64;
+}
+
+div.nt-menu-cuerpo {
+  margin: auto;
+  margin-top: 250px;
+  width: 65%;
+  /*border: 1px solid red;*/
+}
+
+div.nt-menu-cuerpo div.row ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+
+img.nt-menu-img {
+  height: 180px;
+  width: 180px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+div.nt-menu .nt-menu-titulo h1 {
+  margin: auto;
+  margin-top: 100px;
+  width: 70%;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: #455A64;
+  /*border: 1px solid red;*/
+}
+
+div.nt-menu-cuerpo div.row {
+  margin: auto;
+  /*border: 1px solid green;*/
+}
+
+div.nt-menu-cuerpo div.row ul li a {
+  color: #455A64; 
+  width: 180px;
+  text-decoration: none;
+  font-family: cursive;
+  display: block;
+}
+
+div.nt-menu-cuerpo div.row ul li a:hover {
+  background-color: #CFD8DC;
+  border-radius: 15px;
+}
+
+div.nt-menu-pie {
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 25px;
+  /*border: 1px solid red;*/
+}
+
+div.nt-menu-pie div.row ul li {
+list-style: none;
+float: left;
+text-align: center;
+}
+
+i {
+  color: #455A64;
+}
+
+div.nt-menu-pie div.row ul li a {
+  color: #455A64; 
+  width: 150px;
+  text-decoration: none;
+  font-family: cursive;
+  display: block;
+}
+
+div.nt-menu-pie div.row ul li a:hover {
+  background-color: #CFD8DC;
+  border-radius: 5px;
+}
+/*

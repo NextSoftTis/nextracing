@@ -1,24 +1,74 @@
-.nt-titulo {
-  font-family: Raleway;
-  color: white;
+div.imagen-superior {
+  margin: auto;
+  padding-top: 50px;
+  width: 425px;
 }
-div.login {
+
+div.imagen-superior img.circle {
+  width: 420px;
+}
+
+div.nt-formulario {
+  margin: 50px auto;
+  background-color: #616161;
+  /*
+  background-color: #B2EBF2;
+  */
+  padding:  5px;
+  width: 330px;
+  border-radius: 7px;
+}
+
+div.nt-formulario form {
   text-align: center;
-  display: block;
-  position: absolute;
-  top: calc(50% - 250px);
-  left: calc(50% - 200px);
+  font-family: arial;
+  color: white;
+  padding: 15px;
+
 }
-div.login .imagen-superior {
-  display: block;
-  width: 100%;
-  margin-bottom: 50px;
+
+input.form-control {
+  color: #000000;
+  font-size: 16px;
 }
-div.login .formulario {
-  display: block;
-  width: 100%;
+
+input.btn1 {
+  background-color: #1976D2;
 }
-div.login .formulario .nt-box {
-  width: 370px;
-  margin: 0 auto;
+
+input[type="password"] {
+  margin-top: 15px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+div.nt-pie-de-pagina {
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: #455A64;
+}
+
+@media (max-width: 480px) {
+  h2.nt-h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  div.imagen-superior img.circle {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  div.imagen-superior {
+    width: 300px;
+  }
+}
+
+
+div.der {
+  background-color: red;
 }
